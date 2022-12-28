@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="Ім'я">
+                    <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="15.0" />
+                    </VBox.margin></Label>
+                <TextField fx:id="name" alignment="CENTER" promptText="Введіть ім'я">
+                    <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" />
+                    </VBox.margin></TextField>
+                <Label text="Прізвище">
+                    <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="15.0" />
+                    </VBox.margin></Label>
+                <TextField fx:id="surname" alignment="CENTER" promptText="Введіть прізвище">
+                    <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" />
+                    </VBox.margin></TextField>
+                <Button fx:id="btn" mnemonicParsing="false" text="Змінити ідентифікаційний номер">
+                    <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </VBox.margin></Button>
+                <Button fx:id="btn1" mnemonicParsing="false" text="Повернутись в головне меню">
+                    <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </VBox.margin></Button>
+            </children>
+            <VBox.margin>
+                <Insets bottom="15.0" top="15.0" />
+            </VBox.margin>
+            <padding>
+                <Insets bottom="15.0" top="15.0" />
+            </padding>
+            <opaqueInsets>
+                <Insets left="15.0" top="15.0" />
+            </opaqueInsets>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </VBox>
+    </center>
+</BorderPane>
